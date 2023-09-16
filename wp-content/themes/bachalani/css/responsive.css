@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/*--------------media query css------------------*/
+
+@media (max-width:1366px) {
+    body {padding-top: 127px;}
+    #header {padding: 35px 0;}
+    .bachalani_logo {width: 230px;}
+    .enumenu_container {width: calc(100% - 235px);}
+    .banner_sec {padding-top: 127px;}
+    #footer {margin-top: 80px;}
+    .footer_content_wrap {padding-bottom: 40px;}
+    .inner_banner_sec {padding-top: 0;}
+    .news_detials_list_sec {padding: 40px 0 0;margin: 0 0 -16px;}
+    .news_detials_list_content h3 {font-size: 36px;}
+}
+@media (max-width:1199px) {
+    h1, h2 {font-size: 35px;}
+    h3 {font-size: 20px;}
+    .bachalani_logo {width: 200px;}
+    .enumenu_container {width: calc(100% - 205px);}
+    .banner_sec {padding-top: 120px;}
+    .services_list {padding: 35px 45px;}
+    .contact_content {padding-right: 20px;}
+    .contact_form {padding-left: 30px;padding-right: 164px;}
+    .contact_form input.wpcf7-submit {right: -164px;}
+    .news_listing {padding: 30px 0;}
+    .news_list_content {padding-left: 50px;}
+    .news_detials_list_content {padding-right: 50px;}
+    .news_detials_list:nth-child(2n+2) .news_detials_list_content {padding-right: 0;padding-left: 55px;}
+    .projects_hero_banner_sec {padding: 0;}
+    .recent_remedial_projects_list h3 {font-size: 26px;}
+    .recent_remedial_projects_list_inner_center {padding: 0 15px;}
+    .recent_remedial_projects_list p {font-size: 16px;}
+    .recent_remedial_projects_list_inner {height: 320px;}
+    .recent_remedial_projects_list_inner_rollover {padding: 25px 15px;}
+    .recent_remedial_projects_list_inner_rollover li {margin-bottom: 5px;}
+    .load_more_btn_wrap {margin-bottom: 0;}
+    .title_content_sec {padding-top: 25px;}
+    .project_gallery_wrap {max-width: 900px;}
+    .project_gallery_img {width: 450px;height: 300px;}
+    .project_gallery_img:nth-child(2) {width: 350px;height: 522px;margin-top: 70px;}
+    .project_gallery_img:nth-child(3) {width: 260px;height: 386px;margin-left: 190px;margin-top: 70px;}
+    .project_gallery_img:nth-child(4) {width: 250px;height: 220px;margin-top: 70px;}
+    .view_more_projects_sec {margin-bottom: 0;}
+}
+@media (max-width:991px) {
+    .bachalani_logo {width: 170px;}
+    .enumenu_container {width: calc(100% - 175px);padding-right: 35px;}
+    .enumenu_ul_inner li {padding: 0 0 0 30px;}
+    .services_list {-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;margin-bottom: 30px;}
+    .mid_content_sec h2, .services_sec h2 {font-size: 30px;margin-bottom: 15px;}
+    .services_list h3 {font-size: 14px;}
+    .services_list p {font-size: 12px;}
+    .inner_banner_img {padding-bottom: 550px;}
+    .contact_content {width: 40.3%;}
+    .contact_form {width: 59.7%;padding-left: 30px;padding-right: 0;}
+    .contact_form input.wpcf7-submit {position: static;}
+    .title_content_sec h2 {float: none;width: 100%;margin-bottom: 20px;min-height: auto;}
+    .title_content_sec h2::before {display: none;}
+    .get_in_touch_sec .content_right {width: 100%;}
+    .news_list_content {padding-left: 30px;}
+    .news_listing {padding: 20px 0;}
+    .recent_remedial_projects_list {width: 50%;}
+    .projects_list {-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
+    .content_right {float: none;width: 100%;text-align: left;}
+    .title_content_sec h2 {margin-bottom: 10px;}
+    .project_gallery_wrap {max-width: 680px;padding-top: 0;}
+    .project_gallery_img {width: 350px;height: 240px;}
+    .project_gallery_img:nth-child(2) {width: 300px;height: 420px;margin-top: 40px;}
+    .project_gallery_img:nth-child(3) {width: 240px;height: 346px;margin-left: 100px;margin-top: 30px;}
+    .project_gallery_img:nth-child(4) {width: 250px;height: 220px;margin-top: 35px;margin-right: 52px;}
+
+}
+@media (max-width:767px) {
+    body {padding-top: 114px;}
+    h1, h2 {font-size: 24px;}
+    h3 {font-size: 16px;}
+    .mid_content_sec h2, .services_sec h2 {font-size: 24px;margin-bottom: 15px;}
+    .recent_remedial_projects_sec h2 {font-size: 24px;margin-bottom: 15px;}
+    .container {padding: 0 15px;}
+    .banner_slide {padding-bottom: 450px;}
+    .footer_content_wrap p {float: none;text-align: center;}
+    .privacy_policy_links {float: none;text-align: center;margin: 5px 0 0;}
+    .banner_slider {margin: 0;padding: 0 15px;}
+    .inner_banner_img {padding-bottom: 40%;}
+    .mid_content_sec p {font-size: 12px;}
+    .services_list {padding: 25px 30px;}
+    .contact_content {width: 100%;float: none;border: none;padding: 0 0 30px;}
+    .contact_form {width: 100%;float: none;border: none;padding: 0 0 30px;}
+    .news_listing figure {max-width: 300px;width: 100%;display: block;margin-bottom: 30px;}
+    .news_list_content h3 {font-size: 24px;}
+    .news_list_content {width: 100%;padding: 0 0 15px;}
+    .news_detials_list figure {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;order: 1 !important;margin-bottom: 15px;}
+    .news_detials_list_content {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;padding: 0 !important;}
+    .news_detials_list_content h3 {font-size: 24px;}
+    .recent_remedial_projects_list h3 {font-size: 24px;}
+    .recent_remedial_projects_list p {font-size: 14px;}
+    .news_detials_list_content p {font-size: 12px;}
+    .recent_remedial_projects_list_inner_rollover h4 {margin-bottom: 10px;}
+    .recent_remedial_projects_list_inner_rollover li {margin-bottom: 4px;}
+    .projects_list a figure {height: 310px;}
+    .projects_list a h3 {padding: 11px 10px;}
+    .projects_list a {padding-bottom: 10px;}
+    .title_filter_links h2 {float: none;}
+    .filter_links {float: none;text-align: left;}
+    .title_filter_links {padding-bottom: 20px;}
+    .filter_links li a {font-size: 14px;}
+    .load_more_btn_wrap {text-align: center;padding-top: 30px;padding-right: 0;}
+    .project_gallery_img {width: 100%;height: auto;padding-bottom: 64%;}
+    .project_gallery_img:nth-child(2) {width: 100%;height: auto;margin-top: 30px;padding-bottom: 117%;}
+    .project_gallery_img:nth-child(3) {width: 100%;height: auto;margin-left: 0;margin-top: 30px;padding-bottom: 100%;}
+    .project_gallery_img:nth-child(4) {width: 100%;height: auto;margin-top: 30px;margin-right: 0;padding-bottom: 67%;}
+    .view_more_projects_slider {padding: 0 15px;}
+    .view_more_projects_slider .slick-arrow {left: -5px;}
+    .view_more_projects_slider .slick-arrow.slick-next {left: auto;right: -4px;}
+    .view_more_projects_sec h2 {font-size: 24px;}
+    .project_gallery_wrap {padding-bottom: 0;}
+ 
+    .menu-icon {display: block;margin: 0 0 0 auto;width: 30px;height: 20px;position: absolute;top: 10px;right: 15px;-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition: .5s ease-in-out;-moz-transition: .5s ease-in-out;-o-transition: .5s ease-in-out;transition: .5s ease-in-out;cursor: pointer;}
+    .menu-icon span {display: block;position: absolute;height: 3px;width: 100%;background: #000000;border-radius: 9px;opacity: 1;left: 0;-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-o-transition: .25s ease-in-out;transition: .25s ease-in-out;}
+    .menu-icon span:nth-child(1) {top: 0px;}
+    .menu-icon span:nth-child(2) {top: 8px;}
+    .menu-icon span:nth-child(3) {top: 16px;}
+    .menu-icon.active span:nth-child(1) {top: 8px;-webkit-transform: rotate(135deg);-moz-transform: rotate(135deg);-o-transform: rotate(135deg);transform: rotate(135deg);}
+    .menu-icon.active span:nth-child(2) {opacity: 0;left: -60px;}
+    .menu-icon.active span:nth-child(3) {top: 8px;-webkit-transform: rotate(-135deg);-moz-transform: rotate(-135deg);-o-transform: rotate(-135deg);transform: rotate(-135deg);}
+    .enumenu_ul {position: absolute;left: 0;right: 0;top: 100%;background-color: #ffffff;display: none;}
+    .enumenu_container {width: auto;position: static;padding: 0;height: auto;}
+    .enumenu_ul_inner li {display: block;text-align: left;margin: 0;padding: 0;}
+    .enumenu_ul_inner li a {padding: 10px 15px;display: block;}
+    .instagram_icon {margin: 10px 15px 20px;position: static;}
+}
+@media (max-width:480px) {
+    .services_list {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+    .recent_remedial_projects_list {width: 100%;}
+    .projects_list {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+    .projects_list a figure {height: 290px;}
+}
